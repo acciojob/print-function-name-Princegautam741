@@ -1,7 +1,10 @@
-// Define the JavaScript function named functionName
+// Define the function 
 function functionName() {
-    alert("functionName");
+
+  // Use arguments.callee.name to print function name
+  alert(arguments.callee.name);
+
 }
 
-// Call the function to display its own name
+// Call the function
 functionName();
